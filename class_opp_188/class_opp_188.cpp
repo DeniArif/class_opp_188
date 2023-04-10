@@ -2,6 +2,7 @@
 using namespace std;
 
 class Mahasiswa {
+public :
 	int nim;
 	string nama;
 	void tampil() {
@@ -37,12 +38,12 @@ int main() {
 	Mahasiswa mhs;
 	Matakuliah mk;
 
-	cout << "\nInput data mahasiswa " << endl;
-	cout << "\nMasukkan NIM: ";
+	cout << "Masukkan Nim Mahasiswa = ";
 	cin >> mhs.nim;
-	cout << "\nMasukkan nama ";
+	cout << "Masukkan Nama Mahasiswa = ";
 	cin >> mhs.nama;
 
-	cout << "\nInput data mata kuliah " << endl;
-	mk.inputMK()
+	mk.inputMK();
+	mk.tampilkanMK();
+	mhs.tampil();
 }
