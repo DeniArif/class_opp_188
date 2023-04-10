@@ -32,3 +32,17 @@ public:
 		cout << "\nNama MK= " << namaMK << endl;
 	}
 };
+
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	cout << "\nInput data mahasiswa " << endl;
+	cout << "\nMasukkan NIM: ";
+	cin >> mhs.nim;
+	cout << "\nMasukkan nama ";
+	cin >> mhs.nama;
+
+	cout << "\nInput data mata kuliah " << endl;
+	mk.inputMK()
+}
