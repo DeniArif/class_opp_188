@@ -27,6 +27,7 @@ public:
 	}
 
 	void tampilkanMK() {
-		cout << ""
+		cout << "\nJumlah sks= " << sks;
+
 	}
 };
