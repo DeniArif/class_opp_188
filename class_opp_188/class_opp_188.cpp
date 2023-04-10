@@ -9,3 +9,24 @@ class Mahasiswa {
 		cout << "\nNama= " << nama;
 	}
 };
+
+class Matakuliah {
+private:
+	int sks;
+	string kode;
+	string namaMK;
+public:
+	void inputMK() {
+
+		cout << "\nMasukkan jumlah SKS= ";
+		cin >> sks;
+		cout << "\nMasukkan kode MK= ";
+		cin >> kode;
+		cout << "\nMasukkan Nama MK= ";
+		cin >> namaMK;
+	}
+
+	void tampilkanMK() {
+		cout << ""
+	}
+};
